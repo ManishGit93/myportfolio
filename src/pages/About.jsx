@@ -3,6 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { skills,experiences } from "../constants";
+import CTA from "../components/CTA";
 
 const About = () => {
   return (
@@ -91,6 +92,10 @@ My Skills
             ))}
           </VerticalTimeline>
         </div>
+
+        <hr className="border-slate-200"/>
+
+        <CTA/>
       </section>
   )
 }
